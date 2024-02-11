@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description</title>
+    <link rel="stylesheet" href="/css/description.css">
+</head>
+<body>
+    <div class="back">
+        <a href="index.html"><img src="photo/left-arrow.png" alt="back" width="25px"></a>
+        <a href="index.html">
+            <p>BACK</p>
+        </a>
+    </div>
+    <div class="top">
+        <h1>Description</h1>
+        <p>คำสั่ง & คำอธิบาย</p><br><p>น.ส.ธิดารัตน์ ตั้งอนุศาสตร์</p>
+    </div>
+    <div class="container">
+        <div class="transition">
+            <h2>Transition</h2>
+            <p class= "textp1">element<pre> {</pre><pre>    transition: .2s ease-in-out;</pre><pre> }</pre></p>
+            <p class= "textp2">CSS Transitions เป็น feature ใหม่ใน CSS3 ที่ช่วยให้เราสามารถกำหนดได้เองว่า “ในการเปลี่ยนแปลงจาก value เก่าไปสู่ value ใหม่ ของในแต่ละ property นั้น 
+            เราอยากให้เป็นไปในรูปแบบไหน” หรือพูดง่ายๆ ก็คือ เราสามารถกำหนดให้ html element ค่อยๆ เปลี่ยน value ในแต่ละ property ทีละนิดๆ ได้ ไม่ใช่เริ่มเปลี่ยนจาก 0 แล้วไป 100 เลย เป็นต้น</p>
+        </div>
+        <div class="hover-after">
+            <h2>hover : : after</h2>
+            <p class="">element <pre>.global-nav-select a::after {
+            content: '';
+            height: 1px ;
+            width: 0%;
+            background-color: white;
+            display: block;
+            transition: .2s ease-in-out;
+            }
+.global-nav-select a:hover::after{
+            content: '';
+            height: 1px ;
+            width: 100%;
+            background-color: white;
+            display: block;
+            transition: .2s ease-in-out;
+            }</pre></p>
+            <p class="textp3">css pseudo-elements before และ after อยู่ใน css version 3 ซึ่งมีประโยชน์ คือ ใช้ใส่ข้อความสัญลักษณ์ หรือรูปไอคอนต่างๆไว้ก่อนขหลังแท็ก HTML ที่เราเลือกไว้ ซึ่งสามารถใส่ได้ทุกแท็ก เมื่อใส่แล้วจะทำให้มีข้อความ สัญลักษณ์ หรือไอคอน ปรากฎอยู่ก่อน-หลังแท็ก
+                <br>สิ่งที่เราจะใส่ต้องอยู่ใน attribute content:' 'ซึงในนั้น ค่า Default ของ element นั้น จะเป็น inline elementแต่เราสามารถใช้ css บังคับ style การแสดงในแบบต่างๆได้
+            </p>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:wght@400;500;700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:wght@100;200;400;500;700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:wght@100;200;400;500;700&family=Noto+Sans+Thai+Looped:wght@100;200;300&family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.back{
+    display: flex;
+    padding: 20px;
+}
+.back p{    
+    padding: 6px;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    padding: 20px;
+}
+.top h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.top p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.transition {
+    background-color: #38527b;
+    color: #f8f8f8;
+    width: 40%;
+    line-height: 22px;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid #38527b;
+    border-radius: 10px;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.25);
+    
+}
+.transition h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.textp2{
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+.hover-after {
+    background-color: #38527b;
+    color: #f8f8f8;
+    width: 40%;
+    line-height: 22px;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid #38527b;
+    border-radius: 10px;  
+    box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.25); 
+}
+.hover-after h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.textp3{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+
+}
+
+/* responsive mobile */
+@media screen and (max-width: 500px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 10%;
+    }
+    .hover-after{
+        margin: 10px;
+        width: 80%;
+    }
+    .transition{
+        margin: 10px;
+        width: 80%;
+    }
+}
